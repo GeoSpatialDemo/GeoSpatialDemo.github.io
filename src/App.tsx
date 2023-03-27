@@ -11,7 +11,7 @@ import RegionSearchPage from './pages/RegionSearchPage';
 import Navbar from './components/Navbar';
 
 function App() {
-  return <BrowserRouter>
+  return <BrowserRouter basename={process.env.PUBLIC_URL}>
 
     <div className="Top" style={{maxHeight:'20vh'}}>
           <h1 className="Title">Title/logo</h1>
